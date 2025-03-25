@@ -1,0 +1,35 @@
+.custom-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-nav-item {
+  background-color: #814c9a;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 2px solid white;
+}
+
+.custom-nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-nav-item:hover {
+  background-color: #da3b0b;
+}
+
+.custom-nav-item a:hover {
+  color: white;
+}
+
+.first {
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

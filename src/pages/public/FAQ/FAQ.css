@@ -1,0 +1,25 @@
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-header:hover {
+  background: rgb(255, 255, 255);
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0 15px;
+}
+.accordion-content p {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.active .accordion-content {
+  max-height: 200px;
+}
